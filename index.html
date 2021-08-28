@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Detect Keyboard keys with javascript and JQuery</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Detect Keyboard Keys with javascript and with JQuery</h1>
+    <div class="key-detector-cont">
+        <div class="keydetectorjoin">
+            <div style="width: 100%; background-color:aliceblue">Key combination</div>
+            <div id="keydetectorjoin_text" style="width: 100%; color: green; font-size: 20px; text-align:center">listening...</div>
+        </div>
+        <div class="keydetector" style="display: flex; align-items: center; justify-content: center">
+            <div id="keydetector_text" style="color: green; font-size: 20px; text-align:center">listening...</div>
+        </div>
+    </div>
+
+    <p id="test-p" style="font-size: 25px;">This text will turn red after clicking CTRL + J</p>
+
+    <div id="doc-box" style="width: 150px; height: 150px; background-color: yellow"></div>
+    <small>click key Q to change my color to pink and back to yellow</small>
+
+    <div class="divCont">
+        <input type="text" id="test-input" style="padding: 10px; width: 80%;" placeholder="type something...">
+
+        <div id="input-value-displayer" style="font-size: 25px; color: red; margin-top: 15px;">
+            listening for value... 
+        </div>
+        
+    </div>
+
+
+    <script src="./jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

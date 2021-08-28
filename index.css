@@ -1,0 +1,19 @@
+.key-detector-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.key-detector-cont .keydetectorjoin, .keydetector{
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(232, 232, 236);
+}
+
+.divCont{
+    width: 60%;
+    height: 70vh;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    padding: 10px;
+}
